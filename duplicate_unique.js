@@ -19,3 +19,8 @@ function unique(arr) {
 }
 const UniqueAns = unique(arr);
 console.log(UniqueAns);
+
+//Method 2
+
+let uniqueArr2 = new Set(...arr);
+console.log(uniqueArr2);
